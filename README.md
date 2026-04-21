@@ -2,7 +2,7 @@
 
 never lose claim again
 
-# how 2 use
+## how 2 use
 
 **requirements:** run as administrator, install deps first: `pip install keyboard`
 
@@ -39,6 +39,8 @@ never lose claim again
 Press **Delete** to stop the current claimer.
 
 1. Run `python heliclaimer9000.py` or `python tankclaimer9000.py` as admin
-2. Load into a server and wait for a vehicle to become available
-3. Hit the hotkey for the squad you want — it will spam `CreateSquad` until you stop it
-4. Press **Delete** once claimed
+2. Hit the hotkey for the squad you want — it will spam `CreateSquad` until you stop it
+4. Hold **Delete** once claimed
+
+## support:
+for support add `clippiii` on discord
