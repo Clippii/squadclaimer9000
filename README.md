@@ -6,7 +6,7 @@ its just a macro.........
 
 ## how 2 use
 
-**requirements:** run as administrator, install deps first: `pip install keyboard`
+**requirements:** run as administrator, install deps first: `pip install -r requirements.txt`
 
 ### heliclaimer9000.py
 
@@ -70,10 +70,10 @@ Adjust `SPAM_DELAY` (seconds between each `CreateSquad` attempt) and `CONSOLE_OP
 SPAM_DELAY   = 0.005   # 5ms between attempts
 CONSOLE_OPEN = 0.005   # 5ms wait for console
 ```
+## support
+for support add `clippiii` on discord
 
 ## license
 
 GNU General Public License v2.0; free to use, modify, and distribute, but any derivative works must also be open source under the same license.
 
-## support
-for support add `clippiii` on discord
