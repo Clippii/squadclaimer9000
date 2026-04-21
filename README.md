@@ -70,6 +70,11 @@ Adjust `SPAM_DELAY` (seconds between each `CreateSquad` attempt) and `CONSOLE_OP
 SPAM_DELAY   = 0.005   # 5ms between attempts
 CONSOLE_OPEN = 0.005   # 5ms wait for console
 ```
+## speed
+in my experience, i have yet to lose sq1 position, even in servers that delay squad creation, it still claims sq1 as your vehicle..
+
+This might become bannable? no clue.. dont care.. i want my helis..............
+ 
 ## support
 for support add `clippiii` on discord
 
