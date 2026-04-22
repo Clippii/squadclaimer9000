@@ -14,7 +14,7 @@ HELIS = {
     'num 5': 'raven',
     'num 6': 'sa330',
     'num 7': 'mi8',
-    'num 8': 'mi17',
+    'num 8': 'mrh-90',
     'num 9': 'z9',
 }
 
@@ -29,7 +29,7 @@ def type_string(s):
         elif c == '"':
             keyboard.send('shift+2')   # UK layout: shift+2 = ", US layout would be shift+apostrophe
         elif c == '-':
-            keyboard.send('minus')
+            keyboard.write('-')
         elif c.isupper():
             keyboard.send('shift+' + c.lower())
         else:
