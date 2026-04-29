@@ -11,7 +11,7 @@ TANKS = {
     'num 2': 'ztz99a',
     'num 3': 't72',
     'num 4': 't90',
-    'num 5': 't64',
+    'num 5': 't64bm2',
     'num 6': 'leopard2a6m',
     'num 7': 'fv4034',
     'num 8': 't62',

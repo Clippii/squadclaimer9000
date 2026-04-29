@@ -8,7 +8,6 @@ CONSOLE_OPEN = 0.005
 stop_event = threading.Event()
 macro_thread = None
 
-
 def type_string(s):
     for c in s:
         if c == ' ':
@@ -35,7 +34,7 @@ def run_macro(tank):
     time.sleep(1.0)
 
     print(f"[+] claiming {tank}")
-
+    time.sleep(5)
     while not stop_event.is_set():
         if keyboard.is_pressed('delete'):
             stop_event.set()
@@ -62,10 +61,12 @@ print()
 
 while True:
     tank = input("Tank name (or 'quit'): ").strip()
+    time.sleep(5)
     if tank.lower() == 'quit':
         break
     if not tank:
         continue
+        
     if macro_thread and macro_thread.is_alive():
         print("[!] already running, press Delete to stop first")
         continue
