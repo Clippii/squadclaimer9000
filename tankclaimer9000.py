@@ -6,16 +6,16 @@ SPAM_DELAY   = 0.005   # 0.01 = 10ms,
 CONSOLE_OPEN = 0.005   # wait after ` for console to open
 
 TANKS = {
-    'num 0': 'm1a2',
-    'num 1': 'm1a1',
-    'num 2': 'ztz99a',
-    'num 3': 't72',
-    'num 4': 't90',
-    'num 5': 't64bm2',
-    'num 6': 'leopard2a6m',
-    'num 7': 'fv4034',
-    'num 8': 't62',
-    'num 9': 'm60t',
+    'num 0': 'M1A2',
+    'num 1': 'M1A1',
+    'num 2': 'ZTZ-99A',
+    'num 3': 'T-72',
+    'num 4': 'T-90',
+    'num 5': 'T-64BM2',
+    'num 6': 'Leopard 2A6M',
+    'num 7': 'FV4034',
+    'num 8': 'T-62',
+    'num 9': 'M60T',
 }
 
 stop_event = threading.Event()

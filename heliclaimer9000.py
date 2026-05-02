@@ -6,16 +6,16 @@ SPAM_DELAY   = 0.005   # 0.01 = 10ms,
 CONSOLE_OPEN = 0.005   # wait after ` for console to open
 
 HELIS = {
-    'num 0': 'heli',
-    'num 1': 'uh60',
-    'num 2': 'uh1y',
-    'num 3': 'uh1h',
-    'num 4': 'ch146',
-    'num 5': 'raven',
-    'num 6': 'sa330',
-    'num 7': 'mi8',
-    'num 8': 'mrh-90',
-    'num 9': 'z9',
+    'num 0': 'HELO',
+    'num 1': 'UH-60',
+    'num 2': 'UH-1Y',
+    'num 3': 'UH-1H',
+    'num 4': 'CH-47',
+    'num 5': 'Raven',
+    'num 6': 'SA-330',
+    'num 7': 'MI-8',
+    'num 8': 'MRH-90',
+    'num 9': 'Z-9',
 }
 
 stop_event = threading.Event()

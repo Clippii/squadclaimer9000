@@ -6,16 +6,16 @@ SPAM_DELAY   = 0.005   # 0.01 = 10ms,
 CONSOLE_OPEN = 0.005   # wait after ` for console to open
 
 IFVS = {
-    'num 0': 'm2a3',
-    'num 1': 'bmp1',
-    'num 2': 'bmp2',
-    'num 3': 'bmp3',
+    'num 0': 'M2A3',
+    'num 1': 'BMP1',
+    'num 2': 'BMP2',
+    'num 3': 'BMP3',
     'num 4': 'PARSIII 25mm',
-    'num 5': 'btr82a',
-    'num 6': 'btr4e',
-    'num 7': 'fv510ua',
-    'num 8': 'lav',
-    'num 9': 'zbl08',
+    'num 5': 'BTR82A',
+    'num 6': 'BTR4E',
+    'num 7': 'FV510UA',
+    'num 8': 'LAV',
+    'num 9': 'ZBL08',
 }
 
 stop_event = threading.Event()
