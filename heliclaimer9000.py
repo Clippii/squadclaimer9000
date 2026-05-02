@@ -7,15 +7,15 @@ CONSOLE_OPEN = 0.005   # wait after ` for console to open
 
 HELIS = {
     'num 0': 'HELO',
-    'num 1': 'UH-60',
-    'num 2': 'UH-1Y',
-    'num 3': 'UH-1H',
-    'num 4': 'CH-47',
+    'num 1': 'UH60',
+    'num 2': 'UH1Y',
+    'num 3': 'UH1H',
+    'num 4': 'CH146',
     'num 5': 'Raven',
-    'num 6': 'SA-330',
-    'num 7': 'MI-8',
-    'num 8': 'MRH-90',
-    'num 9': 'Z-9',
+    'num 6': 'SA330',
+    'num 7': 'MI8',
+    'num 8': 'MRH90',
+    'num 9': 'Z9',
 }
 
 stop_event = threading.Event()

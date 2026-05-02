@@ -8,13 +8,13 @@ CONSOLE_OPEN = 0.005   # wait after ` for console to open
 TANKS = {
     'num 0': 'M1A2',
     'num 1': 'M1A1',
-    'num 2': 'ZTZ-99A',
-    'num 3': 'T-72',
-    'num 4': 'T-90',
-    'num 5': 'T-64BM2',
-    'num 6': 'Leopard 2A6M',
+    'num 2': 'ZTZ99A',
+    'num 3': 'T72',
+    'num 4': 'T90',
+    'num 5': 'T64BM2',
+    'num 6': 'Leopard2A6M',
     'num 7': 'FV4034',
-    'num 8': 'T-62',
+    'num 8': 'T62',
     'num 9': 'M60T',
 }
 
